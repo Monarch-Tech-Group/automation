@@ -5,15 +5,15 @@
 # Used to quickly install a bunch of things you will need on a new Monarch Development machine.
 #
 # HOW TO RUN:
-# 1. Save this file as: setup.sh to your file system somewhere
+# 1. Save this file from github as: setup.sh to your file system somewhere
 # 2. Make it executable:
-#      chmod +x setup.sh
+#      chmod +x dev-setup.sh
 # 3. Cd to the folder that contains it then tun it:
-#      ./setup.sh
+#      ./dev-setup.sh
 #
 # ALTERNATIVE:
 # You can also run it explicitly with zsh:
-#      zsh setup.sh
+#      zsh dev-setup.sh
 #
 # NOTES:
 # - This script installs Homebrew if it is missing.
