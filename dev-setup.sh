@@ -55,7 +55,7 @@ install_cask() {
   if brew_cask_installed "$cask"; then
     echo "Already installed: $cask"
   else
-    brew install --cask "$cask"
+    brew install --cask "$cask" || echo "Skipped: $cask (may already be installed outside Homebrew)"
   fi
 }
 
