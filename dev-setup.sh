@@ -125,13 +125,14 @@ else
   curl -fsSL https://claude.ai/install.sh | bash
 fi
 
-echo_step "Install Codex CLI + Desktop App"
+echo_step "Install Codex"
 if have_cmd codex; then
   echo "Already installed: codex"
 else
-  npm install -g @openai/codex
+  brew install --cask codex
 fi
-codex install
+
+brew install --cask codex-app
 
 echo_step "Install ChatGPT desktop app"
 install_cask chatgpt
