@@ -2,6 +2,8 @@
 #
 # macOS developer machine bootstrap script
 #
+# Used to quickly install a bunch of things you will need on a new Monarch Development machine.
+#
 # HOW TO RUN:
 # 1. Save this file as: setup.sh to your file system somewhere
 # 2. Make it executable:
